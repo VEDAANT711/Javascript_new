@@ -1,0 +1,18 @@
+.one{
+    color:blueviolet;
+    background-color:chartreuse;
+    width:500px;
+    height:200px;
+}
+
+
+.two {
+    color:red;
+    background-color: yellow;
+    width:200px;
+    height:200px;
+}
+
+#three {
+    color:purple
+}
