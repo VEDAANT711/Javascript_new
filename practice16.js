@@ -65,4 +65,6 @@ let {firstName:f3,lastName:l3,skills:[sub1,sub2]}  = info3
 console.log(f3)
 console.log(l3)
 console.log(sub1)
+
+
 console.log(sub2)
