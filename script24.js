@@ -72,9 +72,9 @@ console.log(color instanceof Tata)
 
 
 
-let q = Tata.hasOwnProperty("modle")
-let b  = Tata.hasOwnProperty("color")
-let a = Tata.hasOwnProperty("country")
+let q = modle.hasOwnProperty("modle")
+let b  = modle.hasOwnProperty("color")
+let a = modle.hasOwnProperty("country")
 console.log(q)
 console.log(a)
 console.log(b)
