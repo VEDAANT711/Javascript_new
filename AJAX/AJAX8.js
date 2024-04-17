@@ -12,7 +12,6 @@ function getUserPage(pageNumber) {
         })
 
 }
-
 function getUserById(id) {
     return fetch(`https://reqres.in/api/users/${id}`)
         .then(function (response) {
@@ -24,7 +23,6 @@ function getUserById(id) {
         })
 
 }
-
 function renderHtml(el) {
     document.write(`<h1>${el.first_name}</h1>`)
     document.write(`<h1>${el.last_name}</h1>`)
@@ -33,6 +31,8 @@ function renderHtml(el) {
     document.write(`<img src=${el.avatar}>`)
 
 }
+
+
 getUserPage(1)
 .then(function(id){
     return getUserById(id)
@@ -42,16 +42,10 @@ getUserPage(1)
     renderHtml(obj)
 })
 
+
 async function getUserInfo(pageNumber){
    let id =  await getUserPage(pageNumber)
    let user   = await getUserById(id)
    renderHtml(user)
 }   
-
 getUserInfo(2)
-
-
-
-
-
-
