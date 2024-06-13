@@ -75,15 +75,3 @@ let a1 = students.reduce(function(acc,el){
     return el.age + acc
 },0)
 console.log(a1/students.length)
-
-
-
-
-
-
-
-
-
-`
-
-`

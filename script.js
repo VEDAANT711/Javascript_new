@@ -21,7 +21,7 @@ let ages = []
 
 for(let i=0; i<birthyear.length; i++){
     let x= 2023-birthyear[i]
-    console"log(i)
+    console.log(i)
     
     console.log(birthyear[i])
     console.log(2023 - birthyear[i])

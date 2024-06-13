@@ -113,9 +113,3 @@ async function getUserInfo(pageNumber){
 }   
 
 getUserInfo(2)
-
-
-
-
-
-
